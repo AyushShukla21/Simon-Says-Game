@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    color:#000000;
+    background-image:url(./neon.jpg);
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    margin: 2.5rem;
+    border:10px solid black;
+}
+.btn-container{
+    display:flex;
+    justify-content: center;
+}
+
+#purple{ background-color:#d34dee; }
+#pink{ background-color:#f631a7; }
+#cyan{ background-color:#06a4d4; }
+#blue{ background-color:#14149b; }
+
+.flash{
+    background-color: white !important; /* for better flash visibility */
+}
+.userflash{
+    background-color: green !important;
+}
